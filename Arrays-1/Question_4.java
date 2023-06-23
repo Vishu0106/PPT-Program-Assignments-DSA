@@ -28,7 +28,7 @@ public class Question_4 {
             }
             else
             {
-                int[] res = new int[digits.length+1];
+                
                 int idx=n;
                 while(idx>=0)
                 {
@@ -43,6 +43,7 @@ public class Question_4 {
                         return digits;
                     }
                 }
+                int[] res = new int[digits.length+1];
                 res[0]=1;
                 return res;
 
