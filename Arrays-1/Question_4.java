@@ -42,7 +42,7 @@ public class Question_4 {
                         return digits;
                     }
                 }
-               int[] res = new int[n+2];
+                int[] res = new int[digits.length+1];
                 res[0]=1;
                 return res;
 
